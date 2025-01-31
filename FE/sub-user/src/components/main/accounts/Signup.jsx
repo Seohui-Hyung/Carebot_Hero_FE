@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { UserProgressContext } from "../../../store/userProgressStore.jsx";
 
 import PageContainer from "../container/PageContainer.jsx";
+import Modal from "../../modal/Modal.jsx";
 
 const regions = [
   {
@@ -416,6 +417,7 @@ export default function Signup() {
       if (result.success) {
         console.log("회원 가입 성공:", result.data);
         alert("회원가입이 완료되었습니다.");
+        userProgressStore.handleCloseModal();
         navigate("/"); // 메인 페이지 이동
       } else {
         console.error("회원 가입 실패:", result.error);
@@ -430,9 +432,21 @@ export default function Signup() {
   }
 
   return (
-    <PageContainer title="회원 가입">
+    <Modal
+      open={userProgressStore.modalProgress === "sign-up"}
+      onClose={
+        userProgressStore.modalProgress === "sign-up"
+          ? userProgressStore.handleCloseModal
+          : null
+      }
+    >
       <form id="signup-form" onSubmit={handleSubmit}>
-        <h2>영웅이 가입을 환영합니다.</h2>
+        <div className="signup-header">
+          <h2>영웅이 가입을 환영합니다.</h2>
+          <button type="button" onClick={userProgressStore.handleCloseModal}>
+            X
+          </button>
+        </div>
         {/* <p></p> */}
 
         {/* 이메일 입력 */}
@@ -606,6 +620,6 @@ export default function Signup() {
           Reset
         </button>
       </form>
-    </PageContainer>
+    </Modal>
   );
 }
