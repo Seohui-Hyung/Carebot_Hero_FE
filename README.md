@@ -8,27 +8,22 @@ Carebot Project는 독거노인을 위한 스마트 생활 도우미 서비스�
 
 ### 서비스 설계
 
-![서비스_아키텍처.drawio](/uploads/71ece4c155f019811abc16a1efbf0104/4차_서비스_아키텍처.drawio.png)
+<img src="https://github.com/user-attachments/assets/08aa947b-c6f1-4287-bc5d-2f65750fe797" width="800"/> <br/>
 
 ### 프로젝트 기여자
 
-<a href="https://github.com/ehgud937"><img src="/uploads/4a63b7699ec175cac0a615af677c207c/최종1.png" width="110" height="200" alt="Contributor 1"/></a>
-<a href="https://github.com/knowgyu"><img src="/uploads/3638726557747a533af920d9599f75a9/최종2.png" width="100" height="200" alt="Contributor 2"/></a>
-<a href="https://github.com/itdice"><img src="/uploads/2c0799da7c65c014e06c0c7a94d108c0/최종3.png" width="100" height="200" alt="Contributor 3"/></a>
-<a href="https://github.com/umdoyuun"><img src="/uploads/3379abd1745c37e08177db325f06db85/최종4.png" width="100" height="200" alt="Contributor 4"/></a>
-<a href="https://github.com/SJLee-0525"><img src="/uploads/ae6d83f15add3b4005f933f8aab2141f/최종5.png" width="100" height="200" alt="Contributor 5"/></a>
-<a href="https://github.com/Seohui-Hyung"><img src="/uploads/007742440f21fafb160cc2378852376d/최종6.png" width="110" height="200" alt="Contributor 6"/></a>
+<img src="https://github.com/user-attachments/assets/fb8fe4a7-aa4d-4ee5-9d6f-b6f0c104f2ec" width="800"/> <br/>
 
 ### 최종 산출물
 
 > **[독거노인 페이지]** <br/>
-> ![main-user-page](/uploads/2ccec764b2c872ee3be581fa660d2137/image.png)
+> <img src="https://github.com/user-attachments/assets/142d69eb-2ff0-441b-ac7e-60041f05e4ab" width="800"/> <br/>
 
 > **[보호자 페이지]** <br/>
-> ![sub-user-page](https://raw.githubusercontent.com/SJLee-0525/imgSource/master/carbot_readme/home.png)
+> <img src="https://github.com/user-attachments/assets/f2f2f869-f1e9-4298-9bef-3e601b28ae52" width="800"/> <br/>
 
 > **[AI 실버케어 로봇 영웅이]** <br/>
-> ![TalkMedia_i_088223da14d8.jpeg](/uploads/45b6a3b8ddcedc7399f3123e9b293215/TalkMedia_i_088223da14d8.jpeg.jpeg)
+> <img src="https://github.com/user-attachments/assets/852438b9-aada-457b-8064-521649829a6f" width="800"/> <br/>
 
 ### 프로젝트 일정
 
